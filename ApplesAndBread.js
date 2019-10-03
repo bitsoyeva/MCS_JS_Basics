@@ -1,0 +1,6 @@
+let  yourMoney=parseFloat(prompt("Сколько у вас с собой денег?"))
+let apples=prompt('Сколько яблок вы купили?')
+let bread=prompt('Сколько батонов хлеба вы купили?')
+let applePrice=apples*(parseFloat(prompt('Сколько стоит одно яблоко?')))
+let breadPrice=bread*(parseFloat(prompt('Сколько стоит один батон хлеба?')))
+yourMoney>=(applePrice+breadPrice)
