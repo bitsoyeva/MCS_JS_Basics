@@ -1,0 +1,27 @@
+@import url(reset.css);
+body {
+	background-color:lightblue;
+}
+input{
+	margin: 20px;
+	position: relative;
+}
+
+label {
+	margin-left:70px;
+	margin-top:20px;
+}
+
+ div {
+    width: 400px;	
+    height: 150px; /* Размеры */
+    background: #fc0; /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 20px; /* Радиус скругления */
+    margin-left: 50px;
+}
+
+h2 {
+	margin-left:70px;
+	margin-top:20px;
+}
